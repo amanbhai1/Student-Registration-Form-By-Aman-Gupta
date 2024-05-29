@@ -14,11 +14,11 @@ app.use(express.json());
 
 let mainfolderr =  path.join(__dirname,"../");
 
-app.get('/register',(req,res) =>{
+app.get('/',(req,res) =>{
     res.sendFile(mainfolderr + "/public/index.html");
 })
 
-app.post("/register",(req,res)=>{
+app.post("/",(req,res)=>{
    try{
     console.log(req.body)
     let req_userdata = new registeration(req.body);
