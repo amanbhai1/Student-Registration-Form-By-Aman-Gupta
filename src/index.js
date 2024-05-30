@@ -18,6 +18,10 @@ app.get('/',(req,res) =>{
     res.sendFile(mainfolderr + "/public/index.html");
 })
 
+app.get('/index',(req,res) =>{
+    res.sendFile(mainfolderr + "/public/index.html");
+})
+
 app.post("/",(req,res)=>{
    try{
     console.log(req.body)

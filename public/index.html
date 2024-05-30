@@ -137,11 +137,11 @@ body {
 
 
 .formcontent{
-    height:auto;
+    height:1520px;
     width: 70%;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 500px;
     background-color: white;
     border-radius: 10px;
 }
@@ -151,6 +151,18 @@ body {
     padding-top: 40px;
     text-decoration: underline;
     font-size: 30px;
+}
+
+footer{
+    background-color: rgb(156, 151, 151);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .formcontent input{
@@ -175,9 +187,9 @@ body {
 }
 
 .formcontent button{
-    width: 300px;
+    width: auto;
     background-color: rgb(235, 255, 54);
-    margin-left: 30%;
+    margin-left: 40%;
     padding: 10px;
     font-size: 18px;
     border-radius: 7px;    
@@ -192,8 +204,9 @@ body {
           <hr>
         </div>
         <div class="links">
-        <a href="/public/index.html"><i class="fa fa-group"></i>Add Student</a><hr>
+        <a href="/index"><i class="fa fa-group"></i>Add Student</a><hr>
         </div>
+        <footer><h3>@Made By Aman Gupta</h3></footer>
       </div>
       
 <div class="content">
@@ -202,7 +215,7 @@ body {
     </div>
 
     <div class="formcontent">
-        <h2>Student Registration Form</h2>
+        <h2>Student Registration Form</h2><br>
         <form action="#" method="post">
             
             First Name:<br>
@@ -239,7 +252,7 @@ body {
             Student DOB: <br>
             <input type="date" name="dob"><br>
 
-            Mobile Number<br>
+            Mobile Number:<br>
             <input type="tel" name="mobileno">
             <br>
             
@@ -267,5 +280,6 @@ body {
 
         </form>
     </div>
+    
 </body>
 </html>
